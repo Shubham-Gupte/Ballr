@@ -1,5 +1,5 @@
 <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Cinzel" rel="stylesheet">
-<ion-header>
+<ion-header color="primary">
     <ion-navbar>
       <ion-title>Medical Information</ion-title>
     </ion-navbar>
@@ -7,55 +7,46 @@
 
   <ion-content>
     <ion-list>
-      <ion-item>
-        <ion-icon name = "heart">
-          <button (click)="goToOtherPage(firstPage)">About ballr</button>
-        </ion-icon>
-      </ion-item>
+      <button ion-item (click)="goToOtherPage(firstPage)">
+        <ion-icon name="heart" item-start></ion-icon>
+        About Ball'r
+      </button>
 
-      <ion-item>
-        <ion-icon name ="medkit">
-          <button (click)="goToOtherPage(secondPage)">Testicular Cancer</button>
-        </ion-icon>
-      </ion-item>
+      <button ion-item (click)="goToOtherPage(secondPage)">
+        <ion-icon name="medkit" item-start></ion-icon>
+        Testicular Cancer
+      </button>
 
-      <ion-item>
-        <ion-icon name = "medical">
-          <button (click)="goToOtherPage(thirdPage)">Lymphoma</button>
-        </ion-icon>
-      </ion-item>
+      <button ion-item (click)="goToOtherPage(thirdPage)">
+        <ion-icon name="medical" item-start></ion-icon>
+        Lymphoma
+      </button>
 
-      <ion-item>
-        <ion-icon name = "thermometer">
-          <button (click)="goToOtherPage(fourthPage)">Temperature</button>
-        </ion-icon>
-        </ion-item>
+      <button ion-item (click)="goToOtherPage(fourthPage)">
+        <ion-icon name="thermometer" item-start></ion-icon>
+        Temperature
+      </button>
 
-        <ion-item>
-          <ion-icon name = "egg">
-            <button (click)="goToOtherPage(fifthPage)">Fertility</button>
-          </ion-icon>
-        </ion-item>
+      <button ion-item (click)="goToOtherPage(fifthPage)">
+        <ion-icon name="egg" item-start></ion-icon>
+        Fertility
+      </button>
 
-        <ion-item>
-          <ion-icon name = "heart">
-            <button (click) = "goToOtherPage(sixthPage)">Self Sex</button>
-          </ion-icon>
-        </ion-item>
+      <button ion-item (click)="goToOtherPage(sixthPage)">
+        <ion-icon name="heart" item-start></ion-icon>
+        Self Sex
+      </button>
 
-        <ion-item>
-          <ion-icon name = "body">
-            <button (click) = "goToOtherPage(seventhPage)">Self Check Exams</button>
-          </ion-icon>
-        </ion-item>
+      
+      <button ion-item (click)="goToOtherPage(seventhPage)">
+        <ion-icon name="body" item-start></ion-icon>
+        Self Check Exams
+      </button>
 
-        <ion-item>
-          <ion-icon name = "at">
-            <button (click) = "goToOtherPage(eighthPage)">Contact Us!</button>
-          </ion-icon>
-        </ion-item>
-        
-
-
+      <button ion-item (click)="goToOtherPage(eighthPage)">
+        <ion-icon name="at" item-start></ion-icon>
+        Contact Us!
+      </button>
+    
     </ion-list>
   </ion-content>
