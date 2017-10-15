@@ -13,9 +13,7 @@ $app-direction: ltr;
 
 @import "ionic.globals";
 
-body, span, button, h1, h2, h3, h4, h5, h6, p, ion-item, ion-title {
-	font-family: 'Baloo Bhaijaan', cursive !important;
-}
+
 // Shared Variables
 // --------------------------------------------------
 // To customize the look and feel of this app, you can override
@@ -35,10 +33,10 @@ body, span, button, h1, h2, h3, h4, h5, h6, p, ion-item, ion-title {
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #488aff,
-  secondary:  #32db64,
+  primary:    #096B72,
+  secondary:  #D4E4BC,
   danger:     #f53d3d,
-  light:      #f4f4f4,
+  light:      #FFEAEE,
   dark:       #222
 );
 

@@ -1,5 +1,6 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CalendarModule } from 'ionic3-calendar';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
@@ -9,6 +10,7 @@ import { ProfilePage } from '../pages/profile/profile';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { TodayPage } from '../pages/today/today';
+import { CalendarPage } from '../pages/calendar/calendar';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -21,11 +23,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ProfilePage,
     HomePage,
     TabsPage, 
-    TodayPage
+    TodayPage, 
+    CalendarPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    CalendarModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -35,7 +39,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ProfilePage,
     HomePage,
     TabsPage, 
-    TodayPage
+    TodayPage, 
+    CalendarPage
   ],
   providers: [
     StatusBar,
