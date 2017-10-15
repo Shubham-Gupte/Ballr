@@ -1,55 +1,61 @@
-<ion-content padding>
 <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Cinzel" rel="stylesheet">
-<ion-slides pager>
+<ion-header>
+    <ion-navbar>
+      <ion-title>Medical Information</ion-title>
+    </ion-navbar>
+  </ion-header>
 
-  <ion-slide style="background-color: black">
-  	   <h2>Profile</h2>
-  	<ion-card  class = "card card md">
-  	<div>
-    	<img id= "dickbutt" src = "https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/082016/untitled-1_5.png?itok=Qi8g19US"/>
-    </div>
-    	<ion-card-content class = "card-content card-content-md">
-    		<ion-card-title class = "card-title card-title-md">
-    			Mr. Peen
-    		</ion-card-title>
-    		<p> Taking Data Since: 09.15.17
-    			<br> Medical Conditions: Seasonal Allergies
-    			<br> What a ball'r!
-    		</p>
-    	</ion-card-content>
-    </ion-card>
-  </ion-slide>
-
-  <ion-slide style="background-color: white">
-    <h2 id = "avg">My Averages</h2>
-    <ion-card  class = "card card md">
-    	<img id= "watermelon" src = "http://data.whicdn.com/images/74842669/original.png">
-    	<ion-card-content class = "card-content card-content-md">
-    		<ion-card-title class = "card-title card-title-md">
-    			Healthy Balls, Healthy Person
-    		</ion-card-title>
-    		<p> Average Body Temperature: 37&deg;C
-    			<br> Average Scrotal Temperature: 34.5&deg;C
-    			<br> Analysis: Lookin' Good!
-    		</p>
-    	</ion-card-content>
-    </ion-card>
-  </ion-slide>
-
-  <ion-slide style="background-color: black">
-    <h2>Personal Goals</h2>
+  <ion-content>
+    <ion-list>
       <ion-item>
-  <ion-label>Eat more leafy greens</ion-label>
-  <ion-checkbox color="primary" checked="true"></ion-checkbox>
-	  </ion-item>
+        <ion-icon name = "heart">
+          <button (click)="goToOtherPage(firstPage)">About ballr</button>
+        </ion-icon>
+      </ion-item>
 
-	<ion-item>
-  <ion-label>Eat less red meat</ion-label>
-  <ion-checkbox color= "primary" checked = "true"></ion-checkbox>
-</ion-item>
-    </ion-slide>
+      <ion-item>
+        <ion-icon name ="medkit">
+          <button (click)="goToOtherPage(secondPage)">Testicular Cancer</button>
+        </ion-icon>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name = "medical">
+          <button (click)="goToOtherPage(thirdPage)">Lymphoma</button>
+        </ion-icon>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name = "thermometer">
+          <button (click)="goToOtherPage(fourthPage)">Temperature</button>
+        </ion-icon>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon name = "egg">
+            <button (click)="goToOtherPage(fifthPage)">Fertility</button>
+          </ion-icon>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon name = "heart">
+            <button (click) = "goToOtherPage(sixthPage)">Self Sex</button>
+          </ion-icon>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon name = "body">
+            <button (click) = "goToOtherPage(seventhPage)">Self Check Exams</button>
+          </ion-icon>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon name = "at">
+            <button (click) = "goToOtherPage(eighthPage)">Contact Us!</button>
+          </ion-icon>
+        </ion-item>
+        
 
 
-</ion-slides>
-
-</ion-content>
+    </ion-list>
+  </ion-content>
