@@ -8,6 +8,7 @@ import { ContactPage } from '../pages/contact/contact';
 import { ProfilePage } from '../pages/profile/profile';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { TodayPage } from '../pages/today/today';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -19,7 +20,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ContactPage,
     ProfilePage,
     HomePage,
-    TabsPage
+    TabsPage, 
+    TodayPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ContactPage,
     ProfilePage,
     HomePage,
-    TabsPage
+    TabsPage, 
+    TodayPage
   ],
   providers: [
     StatusBar,
