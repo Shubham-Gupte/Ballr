@@ -6,12 +6,7 @@
   </ion-header>
 
   <ion-content>
-    <ion-list>
-      <button ion-item (click)="goToOtherPage(firstPage)">
-        <ion-icon name="heart" item-start></ion-icon>
-        About Ball'r
-      </button>
-
+    <ion-list inset>
       <button ion-item (click)="goToOtherPage(secondPage)">
         <ion-icon name="medkit" item-start></ion-icon>
         Testicular Cancer
@@ -41,6 +36,13 @@
       <button ion-item (click)="goToOtherPage(seventhPage)">
         <ion-icon name="body" item-start></ion-icon>
         Self Check Exams
+      </button>
+
+      <ion-item-divider color="secondary"> </ion-item-divider>
+
+      <button ion-item (click)="goToOtherPage(firstPage)">
+        <ion-icon name="heart" item-start></ion-icon>
+        About Ball'r
       </button>
 
       <button ion-item (click)="goToOtherPage(eighthPage)">
