@@ -1,3 +1,30 @@
 page-contact {
 
+
+
+h1{
+	font-family: 'Baloo Bhaijaan', cursive;
+	font-size: 50px;
+	text-align: center;
+	position: center;
+	color: white;
+	background-color: black;
+}
+
+body{
+	text-align: center;
+	background-color: black; 
+	color: white;
+}
+
+fab-size: 100px;
+
+ion-header {
+	position: relative;
+}
+
+ion-list [inset]{
+	position: center;
+	text-align: center;
+}
 }
