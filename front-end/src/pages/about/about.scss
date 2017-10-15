@@ -1,28 +1,32 @@
 page-about {
 
-h2{
-	font-family: 'Baloo Bhaijaan', cursive;
-	color: white;
-}
-img {
-	text-align: center;
-	height: 100%;
-	width: 100%;
-}
+	h2{
+		font-family: 'Baloo Bhaijaan', cursive;
+		color: white;
+	}
+	img {
+		text-align: center;
+		height: 100%;
+		width: 100%;
+		margin: 0 25vw 0 25vw;
+	}
 
-#avg {
-	color: black;
-}
+	#avg {
+		color: black;
+	}
 
-div {
-	text-align: center;
-}
+	div {
+		text-align: center;
+	}
 
-ion-card {
-	font-family: 'Baloo Bhaijaan', cursive;
-	color: black;
-	text-align: left;
-}
+	ion-card {
+		font-family: 'Baloo Bhaijaan', cursive;
+		color: black;
+		text-align: left;
+	}
 
+	ion-slide { 
+		width: 100vw;
+	}
 
 }
